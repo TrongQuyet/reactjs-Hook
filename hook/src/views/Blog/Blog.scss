@@ -1,0 +1,32 @@
+.div-content {
+  position: relative;
+  border: inset;
+  margin: 20px;
+  width: 377px;
+}
+.content-body {
+  display: inline-flex;
+  min-height: 300px;
+}
+button.details {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* justify-content: stretch; */
+}
+button.delete {
+  position: absolute;
+  bottom: 0;
+  color: red;
+  right: 100px;
+}
+.btn-modals {
+  display: inline-grid;
+}
+.modal-body {
+  text-align: center;
+  /* justify-content: center; */
+  position: relative;
+  flex: 1 1 auto;
+  padding: var(--bs-modal-padding);
+}
