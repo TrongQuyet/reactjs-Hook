@@ -61,7 +61,6 @@ const Users = () => {
             <div className="input-add">
               <label className="label-add">firstname :</label>
               <input
-                name="fn"
                 type="text"
                 onChange={(event) => {
                   handlechangefn(event);

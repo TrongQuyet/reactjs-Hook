@@ -1,0 +1,34 @@
+input.input-search {
+  outline: none;
+  border-radius: 12px px 0 0 12px;
+  padding: 0;
+  border: 1px solid;
+  height: 28px;
+}
+button.btn-search {
+  border-radius: 0 12px 12px 0;
+  border: 1px solid;
+  height: 28px;
+}
+.contaiter-body {
+  display: flex;
+  color: white;
+  padding: 45px;
+}
+.right {
+  border: 1px solid blue;
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 107px;
+}
+.left {
+  border: 1px solid red;
+}
+iframe.iframe {
+  height: 229px;
+  width: 409px;
+  border-radius: 10px;
+}

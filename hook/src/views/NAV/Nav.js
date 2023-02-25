@@ -23,6 +23,9 @@ const Nav = () => {
         <li>
           <NavLink to="/Users">Users</NavLink>
         </li>
+        <li>
+          <NavLink to="/Youtube">Youtube</NavLink>
+        </li>
       </ul>
     </div>
   );

@@ -8,6 +8,7 @@ import Detailsblog from "./views/Blog/detailsblog";
 import Addnewblog from "./views/Blog/Addnewblog";
 import Notfound from "./views/404";
 import Users from "./views/Users/Users";
+import Youtube from "./views/Youtube/Youtube";
 // import axios from 'axios'
 import { useState, useEffect } from "react";
 import { Cdclass, Hookcd } from "./views/countdow/classcd.js";
@@ -86,6 +87,7 @@ function App() {
         <Route path="/addnewblog" element={<Addnewblog />} />
         <Route path="*" element={<Notfound />} />
         <Route path="/Users" element={<Users />} />
+        <Route path="/Youtube" element={<Youtube />} />
       </Routes>
     </div>
   );
